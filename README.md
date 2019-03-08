@@ -1,4 +1,4 @@
-allmighty-autocomplete
+angular-autocomplete
 ======================
 
 Simple to use autocomplete directive in a module for AngularJS!
@@ -97,29 +97,5 @@ JavaScript:
 	});
 
 ```
-
-## Change log
-
-***07.03.2014***
-+ `attr-input-class` & `attr-input-id` allow you to choose class and id of the input field. Handy when wanting to add bootstrap styles to the input field
-
-***25.02.2014***
-+ `attr-class` & `attr-id` allow you to choose class and id of the div where the autocomplete is contained, makes it more customizable
-+ `placeholder` renamed into `attr-placeholder`
-
-***14.02.2014***
-+ got rid of jQuery dependency
-
-***13.02.2014***
-
-+ ng-model can now be used outside to obtain the current search parameter
-+ hiding suggestions on blur
-
-***31.01.2014***
-+ Stop showing suggestions on pushing escape
-+ select if suggestions should be shown after clicking on input with new parameter `click-activation`
-+ Added customizable placeholders for input line
-+ FIXED multiple autocomplete directives in one controller are now possible and behave as expected
-
 
 
